@@ -1,0 +1,15 @@
+/*Importamos los components*/
+@import "./components/header";
+@import "./components/body-index";
+@import "./components/body-historia";
+@import "./components/body-preguntas";
+@import "./components/body-redes";
+@import "./components/body-video";
+@import "./components/footer";
+
+/*Aplicamos la letra*/
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+

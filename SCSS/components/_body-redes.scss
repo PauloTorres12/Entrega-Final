@@ -1,0 +1,49 @@
+main{
+    .redes{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .logo-redes{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .descripcion-redes{
+        text-align: center;
+        text-wrap: balance;
+        max-width: 100%;
+        width: 28rem;
+    }
+
+    /*Logo instragram*/
+    .ig{
+        &:hover{
+            background: linear-gradient(90deg, #833ab4, #fd1d1d, #fcb045);
+            border-radius: 30%;
+        }
+    }
+
+    /*Logo facebook*/
+    .fb{
+        &:hover{
+            background: linear-gradient(90deg, #1877f2, #04a0f4);
+            border-radius: 30%;
+        }
+    }
+
+    /*Logo whatsapp*/
+    .ws{
+        &:hover{
+            background: linear-gradient(90deg, #25d366, #128C7E);
+            border-radius: 30%;
+        }
+    }
+    
+    a{
+        color: rgb(0, 0, 0);
+    }
+}

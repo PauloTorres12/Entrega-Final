@@ -1,0 +1,64 @@
+/*Desktop*/
+header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+    color: rgb(255, 255, 255);
+
+    /*Logo*/
+    .logo-header{
+        width: 12.5rem;
+        height: auto;
+    }
+    
+    /*Navbar*/
+    ul{
+        display: flex;
+        gap: 1rem;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+
+        &:hover{
+            color: rgba(255, 153, 0, 0.911);
+        }
+    }
+
+}
+
+/*Mobile*/
+@media screen and (max-width: 365px) {
+
+    header{
+
+        /*Centro el logo*/
+        display: flex;
+        justify-content: center;
+
+        /*Navbar*/
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 0%;
+        }
+    }
+}
+
+@media screen and (max-width: 665px){
+    header{
+        ul{
+            display: flex;
+            flex-direction: column;
+            gap: 0%;
+        }
+    }
+}
